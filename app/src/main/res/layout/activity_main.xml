@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.krotic.lutec.kroticprogramer.MainActivity">
+
+    <TextView
+        android:id="@+id/txtv_current_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+
+    <ListView
+        android:id="@+id/listv_main_settings"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtv_current_program"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp">
+
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/frmly_work_space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtv_current_program"
+        android:layout_toEndOf="@id/listv_main_settings"
+        android:layout_toRightOf="@id/listv_main_settings"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp">
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KroticProgramer</string>
+
+    <!--+++++++++++++++++++++++++++++++Starter Activity++++++++++++++++++++++++++++++++++++++++++-->
+
+    <string name="btn_continue_workac">Continuar</string>
+
+    <!---->
+
 </resources>
