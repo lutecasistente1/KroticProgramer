@@ -18,4 +18,9 @@
     <!--+++++++++++++++++++++++++++++FragmentChooseProgram+++++++++++++++++++++++++++++++++++++++-->
     <string name="txtv_choose_program_msg">Elija un programa</string>
 
+    <!--++++++++++++++++++++++++++++++FragmentConnections++++++++++++++++++++++++++++++++++++++++-->
+    <string name="txtv_ip_msg">Direccion IP</string>
+    <string name="txtv_port_msg">Puerto</string>
+    <string name="button_change_conn">Cambiar ajustes de conexion</string>
+
 </resources>

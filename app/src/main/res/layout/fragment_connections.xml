@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentConnections">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/txtv_ip_msg"
+        android:textSize="48sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtv_hostname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/txtv_port_msg"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/txtv_port"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="48sp"
+        android:text="@string/button_change_conn"/>
+
+</LinearLayout>

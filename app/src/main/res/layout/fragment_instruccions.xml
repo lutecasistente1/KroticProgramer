@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentInstrucctions"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/listv_group_programs"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginRight="4dp">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listv_program"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </ListView>
+
+
+</LinearLayout>
