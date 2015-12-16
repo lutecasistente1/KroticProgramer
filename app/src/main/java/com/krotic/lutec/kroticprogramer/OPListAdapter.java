@@ -15,10 +15,19 @@ import java.util.ArrayList;
 public abstract class OPListAdapter<T> extends BaseAdapter {
 
 /*-------------------------------------Class variable---------------------------------------------*/
+    /**
+     * Items list of the {@link android.widget.ListView}
+     */
     private ArrayList<T> items;
 
+    /**
+     * ID of the layout that fills the {@link android.support.v7.app.AlertDialog}
+     */
     private int layout_id;
 
+    /**
+     * Context over the {@link android.support.v7.app.AlertDialog} is creaeted
+     */
     private Context context;
 
 /*-------------------------------------Methods----------------------------------------------------*/
